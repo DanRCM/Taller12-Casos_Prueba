@@ -30,7 +30,30 @@ public class CalculadoraTest {
     public static void tearDownClass() {
         System.out.println("Todas las pruebas pasadas");
     }
+    
+    @Test
+    public void testSuma() {
+        Double actualResult=calculadora.suma(-3,-5);
+        Double expectedResult= -8.0;
+        
+        assertEquals("TC 1",actualResult,expectedResult);
+    }
+    
+    @Test
+    public void testResta() {
 
+    }
+
+    @Test
+    public void testMultiplicacion() {
+
+    }
+    
+    @Test
+    public void testDivision() {
+
+    }
+    
     @Test
     public void testSumaDivisores() {
         assertEquals("TC 1",284, calculadora.sumaDivisores(220));

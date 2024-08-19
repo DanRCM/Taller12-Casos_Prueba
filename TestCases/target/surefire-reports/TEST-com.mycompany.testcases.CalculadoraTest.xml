@@ -4,7 +4,7 @@
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="C:\Users\CltControl\Documents\NetBeansProjects\TestCases\target\test-classes;C:\Users\CltControl\Documents\NetBeansProjects\TestCases\target\classes;C:\Users\CltControl\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\CltControl\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\CltControl\Documents\GitHub\Taller12-Casos_Prueba\TestCases\target\test-classes;C:\Users\CltControl\Documents\GitHub\Taller12-Casos_Prueba\TestCases\target\classes;C:\Users\CltControl\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\CltControl\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="EC"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\CltControl\AppData\Local\Temp\surefire3249082209949780162\surefirebooter-20240819160949227_3.jar C:\Users\CltControl\AppData\Local\Temp\surefire3249082209949780162 2024-08-19T16-09-49_152-jvmRun1 surefire-20240819160949227_1tmp surefire_0-20240819160949227_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\CltControl\AppData\Local\Temp\surefire12665476085067495945\surefirebooter-20240819162919356_3.jar C:\Users\CltControl\AppData\Local\Temp\surefire12665476085067495945 2024-08-19T16-29-19_277-jvmRun1 surefire-20240819162919356_1tmp surefire_0-20240819162919356_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.mycompany.testcases.CalculadoraTest#testNumerosAmigos"/>
-    <property name="surefire.test.class.path" value="C:\Users\CltControl\Documents\NetBeansProjects\TestCases\target\test-classes;C:\Users\CltControl\Documents\NetBeansProjects\TestCases\target\classes;C:\Users\CltControl\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\CltControl\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="test" value="com.mycompany.testcases.CalculadoraTest#testSuma"/>
+    <property name="surefire.test.class.path" value="C:\Users\CltControl\Documents\GitHub\Taller12-Casos_Prueba\TestCases\target\test-classes;C:\Users\CltControl\Documents\GitHub\Taller12-Casos_Prueba\TestCases\target\classes;C:\Users\CltControl\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\CltControl\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\CltControl"/>
     <property name="user.language" value="es"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2024-01-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\CltControl\Documents\NetBeansProjects\TestCases"/>
+    <property name="basedir" value="C:\Users\CltControl\Documents\GitHub\Taller12-Casos_Prueba\TestCases"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\CltControl\AppData\Local\Temp\surefire3249082209949780162\surefirebooter-20240819160949227_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\CltControl\AppData\Local\Temp\surefire12665476085067495945\surefirebooter-20240819162919356_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\CLTCON~1\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.2"/>
-    <property name="user.dir" value="C:\Users\CltControl\Documents\NetBeansProjects\TestCases"/>
+    <property name="user.dir" value="C:\Users\CltControl\Documents\GitHub\Taller12-Casos_Prueba\TestCases"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testNumerosAmigos" classname="com.mycompany.testcases.CalculadoraTest" time="0.002"/>
+  <testcase name="testSuma" classname="com.mycompany.testcases.CalculadoraTest" time="0.002"/>
 </testsuite>
